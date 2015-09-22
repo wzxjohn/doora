@@ -2,9 +2,6 @@
 
 from config import ACCESS_KEY, SECRET_KEY
 
-import qiniu.conf
+from qiniu import Auth
 
-qiniu.conf.ACCESS_KEY = ACCESS_KEY
-qiniu.conf.SECRET_KEY = SECRET_KEY
-
-import qiniu.rs
+q = Auth(ACCESS_KEY, SECRET_KEY)

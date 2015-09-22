@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Doora</title>
-    <link rel="stylesheet" href="http://cdn.staticfile.org/dropzone/3.9.0/css/dropzone.css" />
+    <link rel="stylesheet" href="//cdn.bootcss.com/dropzone/3.9.0/css/dropzone.css" />
     <style type="text/css">
         body {
             background-color: rgb(244, 244, 244);
@@ -85,9 +85,9 @@
             return chars.join('');
         }
 
-        var zepto_js = "http://cdn.staticfile.org/zepto/1.0rc1/zepto.min.js",
-            qrcode_js = "http://cdn.staticfile.org/jquery.qrcode/1.0/jquery.qrcode.min.js",
-            dropzone_js = "http://cdn.staticfile.org/dropzone/3.9.0/dropzone.min.js";
+        var zepto_js = "//cdn.bootcss.com/zepto/1.0rc1/zepto.min.js",
+            qrcode_js = "//cdn.bootcss.com/jquery.qrcode/1.0/jquery.qrcode.min.js",
+            dropzone_js = "//cdn.bootcss.com/dropzone/3.9.0/dropzone.min.js";
 
         load(zepto_js).thenRun(function() {
             window.jQuery = $;
@@ -161,16 +161,6 @@
             }
         });
 
-    </script>
-    <script type='text/javascript'>
-      (function() {
-         var c = document.createElement('script'); 
-         c.type = 'text/javascript';
-         c.async = true;
-         c.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'www.clicki.cn/boot/51638';
-         var h = document.getElementsByTagName('script')[0];
-         h.parentNode.insertBefore(c, h);
-      })();
     </script>
 </body>
 </html>
